@@ -3,7 +3,18 @@
   font-size: 18px;
   font-weight: 600;
 }
-
+.header-logo {
+  width: 300px !important;
+}
+.header-logo-content-h5{
+  font-size: 23px;
+  color: #fff;
+}
+.header-logo-content-span{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #00f260;
+}
 /* Services block start */
 .main_box {
   width: 100%;
