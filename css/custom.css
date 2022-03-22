@@ -116,6 +116,7 @@ html .main_works-block-item-figure {
 .main_works-block-item-figure img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .main_works-block {
@@ -146,16 +147,8 @@ html .main_works-block-item-figure {
   color: #fff;
   margin-bottom: 0;
 }
-/* ContainerFooter */
-.containerFooter {
-  max-width: 1400px;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin: auto;
-}
-/* ContainerFooter end */
 
+/* ******************************************************** */
 /* skills */
 .main_skills {
   width: 100%;
@@ -195,7 +188,16 @@ html .main_works-block-item-figure {
   width: 100px;
 }
 /* skills end */
-
+/* ************************************************************** */
+/* ContainerFooter */
+.containerFooter {
+  max-width: 1400px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+}
+/* ContainerFooter end */
 /* ************************ MEDIA ************************************ */
 @media screen and (max-width: 1200px) {
   .main_box-block {
