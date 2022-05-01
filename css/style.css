@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+ 
+    padding: 50px 0;
+    background: url(https://reactdemo.hasthemes.com/pringo/assets/img/pringo/hero-bg.jpg) no-repeat center center / cover #00000063;
+    background-blend-mode: multiply;
+    
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header_logo{
+    width: auto;
+}
+.header_nav-btn{
+    padding: 12px 30px;
+    background:transparent;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+.header_nav-btn:hover{
+    background:#fff;
+    color: blue;
+}
+.header_block{
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    align-items:center;
+ 
+}
+.header_block-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.header_block-title-p{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 45px;
+
+}
+.header_block-text{
+    padding: 20px 0;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+
+}
+.header_block-btn{
+    padding: 12px 30px;
+    background:transparent;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+.header_block-btn:hover{
+    background:#fff;
+    color: blue;
+}
